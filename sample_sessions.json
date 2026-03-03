@@ -1,0 +1,50 @@
+[
+  {
+    "id": "session-001",
+    "title": "Python 讀取檔案",
+    "messages": [
+      {"role": "user", "content": "Python 怎麼讀取文字檔案？"},
+      {"role": "assistant", "content": "可以使用 open() 函數搭配 read() 或 readlines() 方法來讀取文字檔案。例如：\n\n```python\nwith open('file.txt', 'r', encoding='utf-8') as f:\n    content = f.read()\n```"}
+    ]
+  },
+  {
+    "id": "session-002",
+    "title": "如何用 Python 讀檔",
+    "messages": [
+      {"role": "user", "content": "Python 讀取檔案的方式有哪些？"},
+      {"role": "assistant", "content": "Python 讀取檔案主要有幾種方式：\n1. read() - 讀取全部內容\n2. readline() - 逐行讀取\n3. readlines() - 回傳每行的 list\n\n建議使用 with 語句自動關閉檔案。"}
+    ]
+  },
+  {
+    "id": "session-003",
+    "title": "JavaScript async/await 用法",
+    "messages": [
+      {"role": "user", "content": "JavaScript 的 async/await 怎麼用？"},
+      {"role": "assistant", "content": "async/await 是處理非同步操作的語法糖，基於 Promise。\n\n```js\nasync function fetchData() {\n  const response = await fetch('https://api.example.com/data');\n  const data = await response.json();\n  return data;\n}\n```"}
+    ]
+  },
+  {
+    "id": "session-004",
+    "title": "Python open() 讀取文件",
+    "messages": [
+      {"role": "user", "content": "請問 Python open 函數怎麼讀取文件？"},
+      {"role": "assistant", "content": "使用 open() 打開檔案後，可以呼叫 .read() 取得全部內容，或用 for 迴圈逐行處理。記得用 with 語句確保檔案被關閉。"}
+    ]
+  },
+  {
+    "id": "session-005",
+    "title": "JavaScript Promise 與 async await",
+    "messages": [
+      {"role": "user", "content": "async await 和 Promise 有什麼不同？"},
+      {"role": "assistant", "content": "async/await 是 Promise 的語法糖，讓非同步程式碼看起來像同步程式碼。\n- Promise 使用 .then()/.catch() 鏈式調用\n- async/await 使用 try/catch 和 await 關鍵字，更易讀\n\n兩者本質上都基於 Promise 機制。"}
+    ]
+  },
+  {
+    "id": "session-006",
+    "title": "Git 基本指令",
+    "messages": [
+      {"role": "user", "content": "Git 最常用的指令有哪些？"},
+      {"role": "assistant", "content": "Git 最常用的指令：\n- git clone：複製倉庫\n- git add：加入暫存區\n- git commit：提交變更\n- git push / pull：推送/拉取\n- git branch：管理分支\n- git merge：合併分支"}
+    ]
+  }
+]
