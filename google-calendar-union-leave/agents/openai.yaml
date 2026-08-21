@@ -1,0 +1,4 @@
+interface:
+  display_name: "Google Calendar Union Leave"
+  short_description: "Summarize union business leave hours from Google Calendar."
+  default_prompt: "Summarize union business leave usage for June 2026 to date, with a table including name, applied hours, and reasons."
